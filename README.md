@@ -5,9 +5,7 @@ Powershell-scripti koetilan palvelimen helppoon käynnistämiseen
 
 Ennen scriptin ajamista tulee ktp:n olla asennettu YTL:n ohjeistuksen mukaisesti. Depedencies: `virtualbox, vagrant`
 
-`ktp`-kansio luodaan käyttäjän kotihakemistoon (C:\Users\käyttäjänimi).
-
-`ktp-jako`-kansio tulisi luodan myös käyttäjän kotikansioon, mutta `vagrant`-jakelu tulkitsee käyttäjän kotihakemistoksi käyttäjän verkkoaseman. Jos tästä ei ole haittaa, kannttaa kansio luoda verkkoasemalle. (esim. X:\ktp-jako)
+`ktp, ktp-jako`-kansiot luodaan käyttäjän kotihakemistoon (C:\Users\käyttäjänimi).
 
 `Vagrantfile`-tiedosto tulee ladata kansioon `ktp`.
 
