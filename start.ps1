@@ -1,4 +1,4 @@
-# Sami Jakonen - jakonen@GitHub
+# Sami Jakonen - xrtli@GitHub
 # Käynnistää virtuaalisen Abitti-palvelimen automatisoidusti
 $env:HOMEDRIVE="C:"
 $env:HOMEPATH="\Users\" + $Env:USERNAME + "\"
